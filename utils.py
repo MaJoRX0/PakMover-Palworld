@@ -128,7 +128,7 @@ def launch_program(program_path):
     """
     try:
         subprocess.Popen(program_path)
-        print(f"Launched program: {program_path}")
+        print(f"Launching Game...")
     except Exception as e:
         print(f"Failed to launch program: {e}")
 
